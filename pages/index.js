@@ -23,7 +23,6 @@ export default function Home() {
           totalSpentDaily,
           totalSpentPast90,
         } = el;
-        console.log(el.frequency)
         let totalPoints = [];
         let pointsHTML = totalSpentDaily.map((amount, idx)=> {
           let s = amount < 100 ? amount - 50 : 50;

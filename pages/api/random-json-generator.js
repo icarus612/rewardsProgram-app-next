@@ -14,7 +14,6 @@ export default (req, res) => {
         name,
         totalSpentDaily,
         totalSpentPast90,
-        frequency
       }
     })
   };
