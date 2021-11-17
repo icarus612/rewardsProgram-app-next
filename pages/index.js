@@ -8,7 +8,6 @@ export default function Home() {
       .then((res)=> res.json())
       .then((json)=> setCustomerData(json));
   }, []);
-  console.log(customerData)
   return customerData && (
     <table>
       <tbody>
